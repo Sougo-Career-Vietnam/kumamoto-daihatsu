@@ -1,0 +1,902 @@
+
+
+
+  
+#oneday-page {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #1B1D22;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    font-family: "noto-sans-cjk-jp", sans-serif;
+  }
+  
+  #oneday-page * {
+    box-sizing: border-box;
+  }
+  
+  #oneday-page a {
+    transition: opacity .3s;
+  }
+  
+  #oneday-page a[href^="tel:"] {
+    display: inline-block;
+    transition: none;
+  }
+  
+  #oneday-page a:hover {
+    text-decoration: none;
+  }
+  
+  #oneday-page a:focus-visible {
+    outline: none;
+  }
+  
+  #oneday-page img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  #oneday-page .inner {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  #oneday-page .inner-samll {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .pop{
+    font-family: 'Poppins';
+  }
+  
+  
+  /*main-banner*/
+  #oneday-page .main-banner{
+    height: 240px;
+    background: #E9545D;
+    position: relative;
+  
+  }
+  #oneday-page .main-banner::after {
+    position: absolute;
+    content: "";
+    background: white;
+    width: calc(50% + 490px);
+    left: 0px;
+    bottom: 0px;
+    height: 122px;
+  }
+  
+  
+  #oneday-page .main-banner .heading-main{
+    text-align: left;
+    padding-top: 114px;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+  }
+  
+  
+  #oneday-page .main-banner .heading-main::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/oneday/line_bg.png);
+    width: 282px;
+    height: 24px;
+    bottom: 51px;
+    left: 0px;
+    z-index: -1;
+  }
+  
+  
+  
+  
+  #oneday-page .main-banner .ttl-en{
+    display: block;
+    font-size: 60px;
+    line-height: 92px;
+    color: #333333;
+    font-weight: 600;
+  
+    font-family: 'Century Gothic';
+  }
+  #oneday-page .main-banner .ttl-ja{
+    display: block;
+    font-size: 22px;
+    line-height: 45px;
+    color: black;
+    font-weight: 500;
+    margin-top: -5px;
+  
+  }
+  
+  
+  #oneday-page .heading-block .ttl-en{
+    display: block;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    font-style: italic;
+  }
+  #oneday-page .heading-block .ttl-ja{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  
+  
+  
+  
+  /*oneday-tabs*/
+  #oneday-page .oneday-tabs{
+    position: relative;
+    padding-top: 57px;
+    margin-bottom: 0px;
+  }
+  #oneday-page .oneday-tabs .note-tab {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.7px;
+    margin-bottom: 118px;
+    font-weight: 500;
+  }
+  #oneday-page .oneday-tabs .onedayImage-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    position: relative;
+    margin-bottom: 61px;
+  }
+  #oneday-page .oneday-tabs .onedayImage-item img{
+    width: 100%;
+  }
+  #oneday-page .oneday-tabs .onedayTabs-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+  }
+  
+  #oneday-page .tab-info {
+    padding: 17px 0px 0px;
+  }
+  
+  #oneday-page .oneday-tabs  .scroll{
+    position: relative;
+    z-index: 2;
+  }
+  #oneday-page .oneday-tabs  .scroll .image {
+    overflow: hidden;
+    display: block;
+    transition: 0.5s;
+  }
+  #oneday-page .oneday-tabs  .scroll:hover img {
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+  
+  #oneday-page .oneday-tabs  .scroll:hover .icon-arrow {
+    width: 40px;
+    height: 40px;
+    background: #B7B4B4;
+    transition: 0.5s;
+  }
+  
+  
+  
+  
+  #oneday-page .oneday-tabs .icon-arrow {
+    width: 30px;
+    height: 30px;
+    background: #DBDADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  
+  #oneday-page .tab-info .t1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B1D22;
+    margin-bottom: 5px;
+  }
+  #oneday-page .tab-info .t2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1B1D22;
+  }
+  
+  #oneday-page .tab-info .t2 .es-red{
+    font-size: 16px;
+    font-weight: bold;
+    color: #E1241B;
+    font-family: 'Century Gothic';
+    margin-left: 5px;
+  }
+  #oneday-page .inner-samll.info-b {
+    padding: 76px 20px 100px;
+    position: relative;
+  }
+  
+  #oneday-page .info-b .bannerImage {
+    position: absolute;
+    top: -175px;
+    right: -91px;
+    width: 59%;
+  }
+  
+  
+  
+  #oneday-page .box-icon {
+    height: 310px;
+    background: white;
+    position: relative;
+  }
+  
+  
+  #oneday-page .box-icon .image {
+    position: absolute;
+    right: calc(50% + 10px);
+    bottom: -10px;
+  }
+  #oneday-page .inner-samll .t3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1B1D22;
+    margin-bottom: 12px;
+  }
+  #oneday-page .inner-samll .t4{
+    font-size: 26px;
+    font-weight: bold;
+    color: #1B1D22;
+  }
+  
+  #oneday-page .inner-samll .t4 .es-red{
+    font-size: 18px;
+    font-weight: bold;
+    color: #E1241B;
+    font-family: 'Century Gothic';
+    margin-left: 5px;
+  }
+  
+  
+  #oneday-page .oneday-tabs .onedayTab-item .tab-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  #oneday-page .oneday-tabs .onedayTab-item #Line_92{
+    transition: .3s;
+  }
+  #oneday-page .oneday-tabs .onedayTab-item #Line_93{
+    transition: .4s;
+    opacity: 0;
+  }
+  #oneday-page .oneday-tabs .onedayTab-item a:hover #Line_92{
+    transform: translate(766.75px, 1852.5px);
+  }
+  #oneday-page .oneday-tabs .onedayTab-item a:hover #Line_93{
+    opacity: 1;
+  }
+  
+  
+  /*list-qa */
+  #oneday-page .list-qa {
+    margin-top: 200px;
+    margin-bottom: 90px;
+  }
+  #oneday-page .dl-item {
+    margin-bottom: 55px;
+  }
+  
+  #oneday-page .dt-item {
+    font-size: 34px;
+    color: #E1241B;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  #oneday-page .dt-item::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    left: 0px;
+    bottom: -25px;
+    z-index: 99;
+    background: #E1241B;
+  }
+  #oneday-page .dd-item {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 30px 10px 30px 65px;
+    letter-spacing: 0.7px;
+    font-weight: 500;
+  }
+  #oneday-page .box-messge {
+    margin-bottom: 70px;
+    background: #E9545D;
+    padding: 43px 20px 60px 65px;
+    position: relative;
+    z-index: 99;
+  }
+  #oneday-page .box-messge .image-messge {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+  }
+  #oneday-page .box-messge .dt-messge {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 55px;
+  }
+  
+  #oneday-page .box-messge .dd-messge {
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+  }
+  
+  
+  
+  
+  /*oneday-block*/
+  
+  #oneday-page .title-line {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 70px;
+    padding-left: 40px;
+    position: relative;
+    z-index: 99;
+  }
+  #oneday-page .title-line .icon-schehule {
+    position: absolute;
+    top:-50px;
+    left: 0px;
+    z-index: -1;
+    display: block;
+  }
+  
+  #oneday-page .oneday-block{
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background: #F5F2F2;
+  }
+  
+  
+  #oneday-page .oneday-block .oneday-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 200px;
+    position: relative;
+    align-items: flex-start;
+  }
+  #oneday-page .oneday-block .oneday-list:after{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    top: 0;
+    left: calc(50% - 3px);
+    background: #E1241B;
+  }
+  
+  #oneday-page .oneday-block .oneday-item{
+    position: relative;
+    z-index: 2;
+  }
+  #oneday-page .oneday-block .oneday-item .onedayItem-info{
+    padding: 30px 30px 32px 30px;
+    background: white;
+  }
+  
+  #oneday-page .oneday-block .oneday-item .title{
+    font-size: 26px;
+    line-height: 36px;
+    color: #E1241B;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+    letter-spacing: 0.5px;
+  }
+  #oneday-page .oneday-block .oneday-item .title:after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 128px);
+    height: 2px;
+    background: #E1241B;
+    bottom: -14px;
+    left: 0px;
+    z-index: 10;
+  }
+  #oneday-page .oneday-block .oneday-item:nth-child(2n) .title:after{
+    right: 1px;
+    bottom: -13px;
+    left: unset;
+  }
+  
+  
+  #oneday-page .oneday-block .oneday-item .title .number {
+    position: absolute;
+    width: 92px;
+    height: 40px;
+    background: #E1241B;
+    bottom: -32px;
+    right: -176px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Century Gothic';
+    z-index: 99;
+  }
+  
+  #oneday-page .oneday-block .oneday-item:nth-child(2n) .title .number {
+    bottom: -33px;
+    right: unset;
+    left: -176px;
+  }
+  
+  
+  #oneday-page .oneday-block .oneday-item:nth-child(2n) .title:before{
+    left: -124px;
+    bottom: -32px;
+    right: unset;
+  }
+  #oneday-page .oneday-block .oneday-item .text{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  #oneday-page .oneday-block .oneday-item .image{
+    display: block;
+    margin-top: 15px;
+  }
+  #oneday-page .oneday-block .oneday-item .image img{
+    width: 100%;
+  }
+  #oneday-page .oneday-block .oneday-item:nth-child(2){
+    margin-top: 312px;
+  }
+  #oneday-page .oneday-block .oneday-item:nth-child(3){
+    margin-top: -296px;
+  }
+  #oneday-page .oneday-block .oneday-item:nth-child(4){
+    margin-top: 50px;
+  }
+  #oneday-page .oneday-block .oneday-item:nth-child(5){
+    margin-top: -267px;
+  }
+  #oneday-page .oneday-block .oneday-item:nth-child(6){
+    margin-top: 47px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  #oneday-page .sp-br {
+    display: none;
+  }
+  #oneday-page .pc-br {
+    display: block
+  }
+  
+  
+  
+  
+  @media (max-width: 1280px) {
+  
+
+  
+  }
+  
+  
+  
+
+  @media (max-width: 767px) {
+    #oneday-page {
+      padding-bottom: 100px;
+    }
+    #oneday-page .pc-br {
+      display: none;
+    }
+    #oneday-page .sp-br {
+      display: block;
+    }
+    #oneday-page .inner{
+        padding: 0 12px;
+    }
+    #oneday-page .inner-samll {
+      padding: 0 37px;
+    }
+    #oneday-page .main-banner{
+       height: 120px;
+    }
+    #oneday-page .main-banner .ttl-en{
+        font-size: 35px;
+        line-height: 46px;
+    }
+    #oneday-page .main-banner .ttl-ja{
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 3px;
+    }
+    #oneday-page .main-banner .heading-main{
+        padding-top: 50px;
+    }
+    #oneday-page .main-banner .heading-main::after {
+      background-image: url(../images/oneday/line_bg_sp.png);
+      width: 162px;
+      height: 12px;
+      bottom: 30px;
+      z-index: -1;
+   } 
+  
+    #oneday-page .oneday-tabs .note-tab {
+      font-size: 13px;
+      line-height: 24px;
+      letter-spacing: 0px;
+      margin-bottom: 76px;
+    }
+    #oneday-page .tab-info {
+      padding: 0px 0px 0px;
+    }
+  
+    #oneday-page .heading-block .ttl-en{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #oneday-page .heading-block .ttl-ja {
+        font-size: 16px;
+        line-height: 18px;
+    }
+  
+    #oneday-page .main-banner::after {
+      width: calc(100% - 37px);
+      height: 75px;
+    }  
+  
+    /*oneday-tabs*/
+    #oneday-page .oneday-tabs {
+        margin-top: -18px;
+    }
+    #oneday-page .oneday-tabs .onedayImage-list{
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 0px;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 40px;
+    }
+    #oneday-page .tab-info .t1 {
+      font-size: 13px;
+      font-weight: 500;
+      color: #1B1D22;
+      margin-bottom: -5px;
+    } 
+    #oneday-page .tab-info .t2 {
+      font-size: 16px;
+    }
+    #oneday-page .onedayImage-item {
+      margin-bottom: 25px;
+    }
+    #oneday-page .tab-info .t2 .es-red {
+      font-size: 13px;
+      margin-left: 10px;
+    }
+    #oneday-page .oneday-tabs .icon-arrow {
+      width: 18px;
+      height: 18px;
+      right: 0px;
+      bottom: 5px;
+    }
+    #oneday-page .oneday-tabs .icon-arrow svg {
+      width: 10px;
+    }
+  
+    #oneday-page .oneday-tabs .scroll:hover .icon-arrow {
+      width: 20px;
+      height: 20px;
+    }
+  
+    #oneday-page .box-icon {
+      height: 55px;
+      background: white;
+    }
+  
+    #oneday-page .oneday-tabs .onedayTabs-list {
+        padding: 0 18px;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        row-gap: 10px;
+    }
+  
+    #oneday-page .oneday-tabs .onedayTab-item .t1 {
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+    #oneday-page .oneday-tabs .onedayTab-item .t2 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+  
+  
+  
+  
+    /*oneday-block*/
+    #oneday-page .oneday-block .oneday-item .title .number,#oneday-page .oneday-block .oneday-item:nth-child(2n) .title .number {
+      right: unset;
+      left: -116px;
+      width: 55px;
+      height: 25px;
+      bottom: -20px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+    #oneday-page .oneday-block {
+        padding-top: 0px;
+        padding-bottom: 12px;
+    }
+  
+    #oneday-page .info-b .bannerImage {
+      position: relative;
+      top: unset;
+      right: unset;
+      width: 100%;
+      margin-top: 23px;
+      padding: 0px 25px;
+    }
+    #oneday-page .list-qa {
+      margin-top: 58px;
+      margin-bottom: 27px;
+      padding: 0px 25px;
+    }
+    #oneday-page .box-icon .image {
+      position: absolute;
+      right: 0px;
+      bottom: -2px;
+      padding-right: 30px;
+    }
+  
+    #oneday-page .oneday-block .oneday-list {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        padding-top: 30px;
+        padding-left: 91px;
+    }
+    #oneday-page .inner-samll.info-b {
+      padding: 33px 12px 15px;
+        position: relative;
+    }
+    #oneday-page .inner-samll .t3 {
+      font-size: 13px;
+      font-weight: 500;
+      color: #1B1D22;
+      margin-bottom: -5px;
+      padding: 0px 25px;
+  }
+    #oneday-page .oneday-block .oneday-item .title {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+    #oneday-page .inner-samll .t4 {
+      font-size: 16px;
+      padding: 0px 25px;
+    }
+  
+    #oneday-page .inner-samll .t4 .es-red {
+      font-size: 13px;
+      margin-left: 10px;
+    }
+    #oneday-page .dt-item {
+      font-size: 16px;
+      margin-bottom: 0px;
+    }
+    #oneday-page .dd-item {
+      font-size: 13px;
+      line-height: 24px;
+      padding: 15px 0px 29px 0px;
+      letter-spacing: 0px;
+    }
+    #oneday-page .dl-item {
+      margin-bottom: 5px;
+    }
+    #oneday-page .dt-item::after {
+      position: absolute;
+      content: "";
+      height: 1.5px;
+      width: 100%;
+      left: 0px;
+      bottom: -2px;
+      z-index: 99;
+      background: #E1241B;
+    }
+    #oneday-page .box-messge {
+      margin-bottom: 70px;
+      background: #E9545D;
+      padding: 23px 20px 38px 25px;
+      position: relative;
+      z-index: 99;
+    }
+    #oneday-page .box-messge .dt-messge {
+      font-size: 16px;
+      color: white;
+      font-weight: 700;
+      margin-bottom: 33px;
+    }
+    #oneday-page .box-messge .dd-messge {
+      font-size: 13px;
+      line-height: 24px;
+      color: white;
+      font-weight: 500;
+      letter-spacing: 0px;
+    }
+    #oneday-page .oneday-block .oneday-item .text {
+        font-size: 13px;
+        line-height: 24px;
+        letter-spacing: 0px;
+    }
+  
+    #oneday-page .oneday-block .oneday-item .onedayItem-info{
+      padding: 17px 25px 15px;
+    }
+    #oneday-page .oneday-block .oneday-item .title:after{
+        width: calc(100% + 50px);
+        height: 2px;
+        background: #E1241B;
+        bottom: -10px;
+        left: unset;
+        right: 18px;
+    }
+    #oneday-page .title-line {
+      font-size: 16px;
+      margin-bottom: 3px;
+      padding-left: 25px;
+    }
+    #oneday-page .title-line .icon-schehule {
+      top: -25px;
+    }
+    #oneday-page .oneday-block .oneday-list:after{
+      width: 3px;
+      height: calc(100% - 60px);
+      left: 25px;
+      top: 30px;
+    }
+    #oneday-page .oneday-block .oneday-item .title:before {
+        width: 25px;
+        height: 25px;
+        bottom: -27px;
+        right: unset;
+        left: -65px;
+    }
+    #oneday-page .oneday-block .oneday-item{
+        margin-top: 0 !important;
+        margin-bottom: 30px;
+    }
+    #oneday-page .oneday-block .oneday-item:nth-child(2n) .title:after {
+      right: 18px;
+      bottom: -8px;
+      left: unset;
+      width: calc(100% + 80px);
+    }
+    #oneday-page .oneday-block .oneday-item:nth-child(2n) .title:before {
+        left: -65px;
+        bottom: -27px;
+        right: unset;
+    }
+    #oneday-page .oneday-block .oneday-item .image {
+        margin-top: 12px;
+    }
+    #oneday-page .box-icon.two{
+      height: 128px;
+    }
+  
+    #oneday-page { 
+      padding-bottom: 75px;
+    }
+  
+}
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+/* thiên địa nhân
+thiên là lá số
+địa là nơi mình sinh sống, công việc đang hướng đến xã hội giờ hàng nghìn việc làm 
+Nhân là chính chúng ta sự cố gắng của chúng ta 
+
+1 lá số cho chúng ta cái nhìn số mệnh trời định theo toán thống kê có 500 nghìn lá số trái đấy 10 tỷ người
+có 20 nghìn người dùng chung 1 lá số
+  1 lá số đại diện cho 20 nghìn lá số
+  Thiên là 20 nghìn lá số
+  Địa là môi trường nơi sinh ra  đất nước, xã hội 
+  Nhân là con người chính chúng ta sự nổ lực 
+
+  Thiên giống nhau nhưng khi gặp phần địa 
+  lớn lên có nhận thức tu dưỡng biến đổi lần nữa
+
+  Khi tổng hợp thiên địa nhân mới hình thành số phận của chúng ta  
+
+
+  Khi giống nhau lá số có nghĩa chung phần thiên nhưng phần địa nhân khác nhau thì sẽ sinh ra số phận khác nhau
+
+  Vì vậy kết hợp lại thì yếu tố nhân rất quan trọng khi ta tu dưỡng giáo dục
+
+
+  Khi xem tử vi thì chỉ xem phần Thiên vì thế nếu chỉ xem 1 lá số thì không thể biết được
+
+  Phải kết hợp phần địa và nhân nữa mới chính xác được  
+
+  Vì thế nếu xem 1 lá số hiểu phần THIên, Địa, Nhân 
+  Hiểu được hoàn cảnh sinh ra ở đất nước nào, 
+
+
+
+  Địa giải quyết là phong thủy của tử vi --> tử vi dành cho phong thủy dùng tử vi để xem phong thủy 
+  Nhân tự tìm hiểu và thấu hiểu đương số   
+  ví dụ con cái chúng ta ta là người hiểu nó nhất thì chúng ta đoán được làm việc gì 
+  Khi hiểu đương số thì vào vận hạn thì họ xử lý như nào 
+
+
+  Ví dụ hạn buôn bán dễ đi tù thì đó chỉ là tượng ( phần thiên ) chưa chắc ứng 
+  Nếu đương số đang buôn bán kinh doanh thì phần địa đã ứng   
+  PHần nhân thì phải hiểu đương số có máu liều không thì đương số phạm tội thì rất cao 
+  Nếu không có máu liều không tham sam si thì phạm tội rất thấp 
+
+
+  */
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

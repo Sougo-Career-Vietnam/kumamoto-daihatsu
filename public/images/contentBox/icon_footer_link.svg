@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <g id="外部リンクボタン" transform="translate(-1072 -6664)">
+    <g id="Rectangle_293" data-name="Rectangle 293" transform="translate(1072 6666)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="10" height="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="9" fill="none"/>
+    </g>
+    <g id="Rectangle_294" data-name="Rectangle 294" transform="translate(1074 6664)" fill="#424242" stroke="#fff" stroke-width="1">
+      <rect width="10" height="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="9" fill="none"/>
+    </g>
+    <line id="Line_64" data-name="Line 64" y1="4.625" x2="4.558" transform="translate(1076.5 6666.875)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_65" data-name="Line 65" y1="3.625" transform="translate(1081.058 6666.875)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+    <line id="Line_66" data-name="Line 66" x2="3.558" transform="translate(1077.5 6666.875)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>
