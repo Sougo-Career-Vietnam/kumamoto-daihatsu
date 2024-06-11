@@ -42,7 +42,7 @@
         <div class="img-interview">
             <picture class="">
             <source srcset="{{asset('images/contentBox/interview_pc.png')}} 2x">
-                <img class="sizes" src="{{asset('images/contentBox/interview_pc.png')}}" alt="">
+                <img class="sizes" src="{{asset('images/contentBox/interview_pc.png')}}" alt="社員研修の写真">
             </picture>
         </div>
     </section> 
