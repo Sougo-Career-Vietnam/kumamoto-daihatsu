@@ -1,6 +1,6 @@
 @if($fEntPager)
 <nav class="pagination">
-    <div class="count">該当件数<em>{{$fEntPager->totalCnt}}</em>件</div>
+    <div class="count"><em>{{$fEntPager->totalCnt}}</em>件ヒットしました。</div>
     <div class="new_pagenation">
 
         @if($fEntPager->prevPage)

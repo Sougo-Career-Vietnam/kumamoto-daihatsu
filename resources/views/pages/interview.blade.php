@@ -32,7 +32,7 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_tab_01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_tab_01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/interview/oneday_tab_01_pc.png')}}" alt="製造管理者の写真">
+                                    <img class="sizes" src="{{asset('images/contentBox/interview/oneday_tab_01_pc.png')}}" alt="サービス社員の写真">
                                 </picture>
                                 <div class="tab-info"> 
                                   <p class="t1">サービスアドバイザー&ensp;菊池店 （2020年入社）</p>
@@ -51,7 +51,7 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_tab_02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_tab_02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/interview/oneday_tab_02_pc.png')}}" alt="在庫管理者の写真">
+                                    <img class="sizes" src="{{asset('images/contentBox/interview/oneday_tab_02_pc.png')}}" alt="技術者の写真">
                                 </picture>
                                 <div class="tab-info">
                                   <p class="t1">サービスアドバイザー&ensp;菊池店 （2020年入社）</p>
@@ -89,7 +89,7 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_ttl_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_ttl_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_ttl_pc.png')}}" alt="製造管理者の写真">
+                                    <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_ttl_pc.png')}}" alt="サービス社員の写真">
                                 </picture>
                               </div>
                               <div class="list-qa">
@@ -149,7 +149,7 @@
                                         <picture class="image">
                                           <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_image01_sp.png')}} 2x">
                                           <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_image01_pc.png')}} 2x">
-                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
+                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}}" alt="ショールーム掃除">
                                       </picture>
                                     </div>
                                 </li>
@@ -160,7 +160,7 @@
                                         <picture class="image">
                                           <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_image02_sp.png')}} 2x">
                                           <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}} 2x">
-                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
+                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}}" alt="スケジュール確認">
                                       </picture>
                                     </div>
                                 </li>
@@ -171,7 +171,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_image03_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_image03_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
+                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}}" alt="電話で顧客対応">
                                         </picture>
                                     </div>
                                 </li>
@@ -182,7 +182,7 @@
                                         <picture class="image">
                                           <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_image04_sp.png')}} 2x">
                                           <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_image04_pc.png')}} 2x">
-                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
+                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image02_pc.png')}}" alt="来客対応">
                                       </picture>
                                     </div>
                                 </li>
@@ -193,7 +193,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_image05_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_image05_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image03_pc.png')}}" alt="上司とのミーティング写真">
+                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image03_pc.png')}}" alt="車について顧客に説明">
                                         </picture>
                                     </div>
                                 </li>
@@ -204,7 +204,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_image06_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_image06_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image04_pc.png')}}" alt="技術者とのミーティングの写真">
+                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_01_image04_pc.png')}}" alt="退社前の作業">
                                         </picture>
                                     </div>
                                 </li>
@@ -238,7 +238,7 @@
                                 <picture class="image">
                                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_02_ttl_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_02_ttl_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_ttl_pc.png')}}" alt="製造管理者の写真">
+                                    <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_ttl_pc.png')}}" alt="技術者の写真">
                                 </picture>
                               </div>
                               <div class="list-qa">
@@ -300,7 +300,7 @@
                                         <picture class="image">
                                           <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_02_image01_sp.png')}} 2x">
                                           <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_02_image01_pc.png')}} 2x">
-                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
+                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}}" alt="社員研修">
                                       </picture>
                                     </div>
                                 </li>
@@ -311,7 +311,7 @@
                                         <picture class="image">
                                           <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_02_image02_sp.png')}} 2x">
                                           <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}} 2x">
-                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
+                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}}" alt="スケジュールの確認">
                                       </picture>
                                     </div>
                                 </li>
@@ -322,7 +322,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_02_image03_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_02_image03_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
+                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}}" alt="作業中の写真">
                                         </picture>
                                     </div>
                                 </li>
@@ -333,7 +333,7 @@
                                         <picture class="image">
                                           <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_02_image04_sp.png')}} 2x">
                                           <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_02_image04_pc.png')}} 2x">
-                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}}" alt="管理者とメンバーのミーティング">
+                                          <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image02_pc.png')}}" alt="先輩と相談">
                                       </picture>
                                     </div>
                                 </li>
@@ -344,7 +344,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_02_image05_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_02_image05_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image03_pc.png')}}" alt="上司とのミーティング写真">
+                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image03_pc.png')}}" alt="顧客に車両を渡し">
                                         </picture>
                                     </div>
                                 </li>
@@ -355,7 +355,7 @@
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_02_image06_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_02_image06_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image04_pc.png')}}" alt="技術者とのミーティングの写真">
+                                            <img class="sizes" src="{{asset('images/contentBox/interview/oneday_02_image04_pc.png')}}" alt="退社前の写真">
 
 
                                            

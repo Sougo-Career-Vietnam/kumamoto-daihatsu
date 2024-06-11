@@ -22,7 +22,7 @@
                 <dd class="img-mobi">
                 <picture class="">
                     <source srcset="{{asset('images/contentBox/interview_sp.png')}} 2x">
-                    <img class="sizes" src="{{asset('images/contentBox/interview_sp.png')}}" alt="">
+                    <img class="sizes" src="{{asset('images/contentBox/interview_sp.png')}}" alt="社員研修の写真">
                 </picture>
                 </dd>
 

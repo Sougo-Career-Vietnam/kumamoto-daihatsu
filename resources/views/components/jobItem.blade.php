@@ -65,9 +65,9 @@
         <div class="summaryJobBtns">
             <div class="detailBtn">
                 <a class="goJob" href="{{Route('top')}}/job/{{ $fEntJob->jobId ?? '' }}">詳しく見る<i class="fas fa-chevron-right"></i></a>
-                @if($fEntJob->jisyaKoukokuNum)
+                {{-- @if($fEntJob->jisyaKoukokuNum)
                     <x-molecules.favoriteBtn :favoriteList="$favoriteList" :code="$fEntJob->jisyaKoukokuNum" :jobId="$fEntJob->jobId" />
-                @endif
+                @endif --}}
             </div>
             @if($fEntJob->jisyaKoukokuNum)
             <div class="adNumField">お仕事No.{{$fEntJob->jisyaKoukokuNum}}</div>

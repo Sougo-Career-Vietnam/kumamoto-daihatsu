@@ -48,7 +48,7 @@
                     <section class="mod_jobDetailJob">
                         <div class="pcLayout">
                             <div class="jobBtns jobTopBtn">
-                                <a class="goJoblist" href="">&nbsp;</a>
+                                <a class="goJoblist" href=""></a>
                             </div>
                             <header>
                                 <h1 class="title_bg">{{$fEntJobDetail->jobTitle}}</h1>
@@ -167,9 +167,9 @@
                                         </a>
                                         @endif
 
-                                        @if($fEntJobDetail->jisyaKoukokuNum)
+                                        {{-- @if($fEntJobDetail->jisyaKoukokuNum)
                                         <x-molecules.favoriteBtn :favoriteList="$favoriteList" device="pc" :code="$fEntJobDetail->jisyaKoukokuNum" :jobId="$fEntJobDetail->jobId" />
-                                        @endif
+                                        @endif --}}
 
                                         @if($fEntJobDetail->jisyaKoukokuNum)
                                             <div class="adNumField">お仕事No.{{$fEntJobDetail->jisyaKoukokuNum}}</div>
@@ -320,9 +320,9 @@
                                         </a>
                                         @endif
 
-                                        @if($fEntJobDetail->jisyaKoukokuNum)
+                                        {{-- @if($fEntJobDetail->jisyaKoukokuNum)
                                         <x-molecules.favoriteBtn :favoriteList="$favoriteList" device="pc" :code="$fEntJobDetail->jisyaKoukokuNum" :jobId="$fEntJobDetail->jobId" />
-                                        @endif
+                                        @endif --}}
 
                                     </aside>
 

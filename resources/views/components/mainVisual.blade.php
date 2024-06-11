@@ -13,7 +13,12 @@ $sliderImgList = array(
         'top_mainimg_03_sp.png',
     ),
 );
-$mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」内に入力してください
+
+
+
+
+
+$mvCatchCopy ='熊本ダイハツ販売株式会社のバンナ';//メインビジュアルのキャッチコピーを「''」内に入力してください
 ?>
 
 @if(($sliderImgList['pc'] && count($sliderImgList['pc']) > 0) || ($sliderImgList['sp'] && count($sliderImgList['sp']) > 0))

@@ -41,7 +41,7 @@
     display: inline-block;
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: 30px;
     width: 16px;
     height: 8px;
     background-image: url(#{$imgDir}arrow/arrow_down_black_pc.png);
@@ -283,6 +283,8 @@
                 margin: 0 10px 0 0;
                 &.goJoblist {
                   @extend %btnReset;
+                  padding: 12px 50px 12px 55px;
+                  background-color: #DDDDDD;
                 }
                 //goJoblist
               }
@@ -324,6 +326,8 @@
                   margin: 20px auto;
                   > a.goJoblist {
                     @extend %btnReset;
+                    padding: 12px 50px 12px 55px;
+                    background-color: #DDDDDD;
                   }
                 }
                 //aside.jobBtns
