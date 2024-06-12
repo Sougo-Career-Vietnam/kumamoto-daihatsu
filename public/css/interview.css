@@ -369,7 +369,7 @@
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 70px;
-    padding-left: 40px;
+    padding-left: 63px;
     position: relative;
     z-index: 99;
   }
@@ -485,6 +485,11 @@
   #oneday-page .oneday-block .oneday-item:nth-child(3){
     margin-top: -296px;
   }
+  #oneday-page .oneday-block .oneday-item.two:nth-child(3){
+    margin-top: -255px;
+  }
+
+ 
   #oneday-page .oneday-block .oneday-item:nth-child(4){
     margin-top: 50px;
   }
@@ -494,7 +499,6 @@
   #oneday-page .oneday-block .oneday-item:nth-child(6){
     margin-top: 47px;
   }
-  
   
   
   

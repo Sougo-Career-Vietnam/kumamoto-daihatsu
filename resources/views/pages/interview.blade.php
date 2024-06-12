@@ -189,7 +189,7 @@
                                 <li class="oneday-item">
                                     <div class="onedayItem-info js-fadein">
                                         <p class="title"><span class="number pop">14:00</span>商談</p>
-                                        <p class="text">お昼休憩の後、ご来店されたお客様と商談をします。<br class="sp-br">お車車の使用目的や使用頻度などをヒアリングし、お客様にぴったりのお車をご提案します。</p>
+                                        <p class="text">お昼休憩の後、ご来店されたお客様と商談をします。<br class="sp-br">お車車の使用目的や使用頻度などをヒアリングし、お客様に<br class="pc-br">ぴったりのお車をご提案します。</p>
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_image05_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_image05_pc.png')}} 2x">
@@ -200,7 +200,7 @@
                                 <li class="oneday-item">
                                     <div class="onedayItem-info js-fadein">
                                         <p class="title"><span class="number pop">18:00</span>退社</p>
-                                        <p class="text">新規でご来店いただいたお客様の情報、商談の状況、点検・車検の入庫予定などを記録。<br class="sp_br">翌日のスケジュール等を確認してから退社します。</p>
+                                        <p class="text">新規でご来店いただいたお客様の情報、商談の状況、点検・車検の入庫予定などを記録。<br class="sp-br">翌日のスケジュール等を確認してから退社します。</p>
                                         <picture class="image">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/interview/oneday_01_image06_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/interview/oneday_01_image06_pc.png')}} 2x">
@@ -232,7 +232,7 @@
   
                         <div class="banner-info">
                             <div class="inner-samll info-b">
-                              <p class="t3">サービスアドバイザー&ensp;菊池店 （2020年入社）</p>
+                              <p class="t3">サービスアドバイザー&ensp;菊池店 （2022年入社）</p>
                               <p class="t4">今井 一希<span class="es-red">Kazuki Imai</span></p>
                               <div class="bannerImage">
                                 <picture class="image">
@@ -315,7 +315,7 @@
                                       </picture>
                                     </div>
                                 </li>
-                                <li class="oneday-item">
+                                <li class="oneday-item two">
                                     <div class="onedayItem-info js-fadein">
                                         <p class="title"><span class="number pop">10:00</span>午前作業</p>
                                         <p class="text">点検や整備、修理、オイル交換などを丁寧に行っていきます。交換部品がなかったり、時間のかかる作業の場合は、お預かりをします。</p>
