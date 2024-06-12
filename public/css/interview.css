@@ -11,6 +11,7 @@
     background: #fff;
     position: relative;
     font-family: "noto-sans-cjk-jp", sans-serif;
+    margin-bottom: 205px;
   }
   
   #oneday-page * {
@@ -250,7 +251,9 @@
     background: white;
     position: relative;
   }
-  
+  #oneday-page .box-icon.two {
+    height: 370px;
+  }
   
   #oneday-page .box-icon .image {
     position: absolute;
@@ -383,7 +386,7 @@
   
   #oneday-page .oneday-block{
     padding-top: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     background: #F5F2F2;
   }
   
@@ -528,6 +531,7 @@
   @media (max-width: 767px) {
     #oneday-page {
       padding-bottom: 100px;
+      margin-bottom: 0px;
     }
     #oneday-page .pc-br {
       display: none;
@@ -630,7 +634,7 @@
       height: 20px;
     }
   
-    #oneday-page .box-icon {
+    #oneday-page .box-icon,  #oneday-page .box-icon.two {
       height: 55px;
       background: white;
     }

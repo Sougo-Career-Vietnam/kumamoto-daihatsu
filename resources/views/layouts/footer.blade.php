@@ -87,7 +87,7 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
                         <p>{{$footerZipCode}}</p>
                     @endif
                     @if($footerAddress)
-                        <p>{!! nl2br(e($footerAddress)) !!}</p>
+                        <p class="add-margin">{!! nl2br(e($footerAddress)) !!}</p>
                     @endif
                     @if($footerTel)
                         <p>TEL：{{$footerTel}}</p>
