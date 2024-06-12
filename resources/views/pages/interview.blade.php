@@ -54,7 +54,7 @@
                                     <img class="sizes" src="{{asset('images/contentBox/interview/oneday_tab_02_pc.png')}}" alt="技術者の写真">
                                 </picture>
                                 <div class="tab-info">
-                                  <p class="t1">サービスアドバイザー&ensp;菊池店 （2020年入社）</p>
+                                  <p class="t1">サービスアドバイザー&ensp;菊池店 （2022年入社）</p>
                                   <p class="t2">今井 一希<span class="es-red">Kazuki Imai</span></p>
                               </div>
                               <div class="icon-arrow">

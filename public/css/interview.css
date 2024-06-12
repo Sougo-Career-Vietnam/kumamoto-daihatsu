@@ -89,7 +89,7 @@
   #oneday-page .main-banner .heading-main::after {
     position: absolute;
     content: "";
-    background-image: url(../images/oneday/line_bg.png);
+    background-image: url(../images/contentBox/interview/line_bg.png);
     width: 282px;
     height: 24px;
     bottom: 51px;
@@ -230,7 +230,7 @@
     font-weight: bold;
     color: #E1241B;
     font-family: 'Century Gothic';
-    margin-left: 5px;
+    margin-left: 10px;
   }
   #oneday-page .inner-samll.info-b {
     padding: 76px 20px 100px;
@@ -561,13 +561,13 @@
         padding-top: 50px;
     }
     #oneday-page .main-banner .heading-main::after {
-      background-image: url(../images/oneday/line_bg_sp.png);
+      background-image: url(../images/contentBox/interview/line_bg_sp.png);
       width: 162px;
       height: 12px;
       bottom: 30px;
       z-index: -1;
    } 
-  
+   
     #oneday-page .oneday-tabs .note-tab {
       font-size: 13px;
       line-height: 24px;
