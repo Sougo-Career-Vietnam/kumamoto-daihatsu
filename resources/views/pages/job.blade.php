@@ -495,6 +495,11 @@
                                             </table>
                                         </div>
                                     </section>
+                                    @if($fEntJobDetail->jisyaKoukokuNum)
+                                    <aside class="applyBtns">
+                                        <div class="adNumField">お仕事No.{{$fEntJobDetail->jisyaKoukokuNum}}</div>
+                                    </aside>
+                                    @endif
                                     @if($applyTelNumber && mb_strlen($applyTelNumber) > 0)
                                     <aside class="applyTelBtns">
                                         <a class="goApply" href="tel: {{$applyTelNumber}}" onclick="gtag('event', 'click', {'event_category': 'links','event_label': 'tel-tap-{{$fEntJobDetail->jobId}}-sp'});">@lang('textlist.telApply')<i class="fas fa-chevron-right"></i></a>
@@ -503,14 +508,10 @@
                                     <aside class="applyBtns">
                                         <a class="goApply" href="{{Route('top')}}/apply/{{$fEntJobDetail->jobId}}">@lang('textlist.webApply')<i class="fas fa-chevron-right"></i></a>
                                     </aside>
-                                    @if($fEntJobDetail->jisyaKoukokuNum)
+                                    {{-- @if($fEntJobDetail->jisyaKoukokuNum)
                                     <x-molecules.favoriteBtn :favoriteList="$favoriteList" device="sp" :code="$fEntJobDetail->jisyaKoukokuNum" :jobId="$fEntJobDetail->jobId" />
-                                    @endif
-                                    @if($fEntJobDetail->jisyaKoukokuNum)
-                                    <aside class="applyBtns">
-                                        <div class="adNumField">お仕事No.{{$fEntJobDetail->jisyaKoukokuNum}}</div>
-                                    </aside>
-                                    @endif
+                                    @endif --}}
+                       
                                     @if($fEntJobDetail->mainGazoFilePath || $fEntJobDetail->subGazo1FilePath || $fEntJobDetail->subGazo2FilePath || $fEntJobDetail->subGazo3FilePath)
                                     <section class="JobImgField">
                                         <div id="JobImg">
@@ -643,6 +644,11 @@
                                             </tbody>
                                         </table>
                                     </section>
+                                    @if($fEntJobDetail->jisyaKoukokuNum)
+                                    <aside class="applyBtns">
+                                        <div class="adNumField">お仕事No.{{$fEntJobDetail->jisyaKoukokuNum}}</div>
+                                    </aside>
+                                    @endif
                                     @if($applyTelNumber && mb_strlen($applyTelNumber) > 0)
                                         <aside class="applyTelBtns">
                                             <a class="goApply" href="tel: {{$applyTelNumber}}" onclick="gtag('event', 'click', {'event_category': 'links','event_label': 'tel-tap-{{$fEntJobDetail->jobId}}-sp'});">@lang('textlist.telApply')<i class="fas fa-chevron-right"></i></a>
@@ -651,14 +657,10 @@
                                     <aside class="applyBtns">
                                         <a class="goApply" href="{{Route('top')}}/apply/{{$fEntJobDetail->jobId}}">@lang('textlist.webApply')<i class="fas fa-chevron-right"></i></a>
                                     </aside>
-                                    @if($fEntJobDetail->jisyaKoukokuNum)
+                                    {{-- @if($fEntJobDetail->jisyaKoukokuNum)
                                     <x-molecules.favoriteBtn :favoriteList="$favoriteList" device="sp" :code="$fEntJobDetail->jisyaKoukokuNum" :jobId="$fEntJobDetail->jobId" />
-                                    @endif
-                                    @if($fEntJobDetail->jisyaKoukokuNum)
-                                    <aside class="applyBtns">
-                                        <div class="adNumField">お仕事No.{{$fEntJobDetail->jisyaKoukokuNum}}</div>
-                                    </aside>
-                                    @endif
+                                    @endif --}}
+                       
                                 </div>
                             </div>
                         </div>
